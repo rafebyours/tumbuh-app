@@ -1,6 +1,6 @@
 <template>
-  <!-- <SplashScreen v-if="showSplash" /> -->
-  <!--  <router-view v-else />-->
+  <!-- <SplashScreen v-if="showSplash" />  -->
+  <!-- <router-view v-else /> -->
   <router-view />
 </template>
 
