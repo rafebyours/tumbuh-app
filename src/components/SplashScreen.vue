@@ -1,7 +1,7 @@
 <template>
     <div v-if="showSplash" class="fixed inset-0 flex flex-col items-center justify-center bg-white">
       <div class="flex flex-col items-center space-y-4">
-        <img src="@/assets/SSlogo.png" alt="Logo" class="w-64 animate-fade-in" :class="{ show: animate }" />
+        <img src="@/assets/logo-black.gif" alt="Logo" class="w-64 animate-fade-in" :class="{ show: animate }" />
       </div>
   
       <!-- Footer -->

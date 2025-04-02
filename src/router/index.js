@@ -5,7 +5,7 @@ import Login from '../views/Login.vue';
 import Register from '../views/Register.vue';
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/home', component: Home },
   { path: '/about', component: About },
   { path: '/login', component: Login },
   { path: '/register', component: Register },

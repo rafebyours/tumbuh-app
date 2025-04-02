@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-end justify-center min-h-screen bg-green-700 p-4 relative">
+    <div class="flex items-end justify-center min-h-screen bg-[#638872] p-4 relative">
         <div class="bg-white p-8 rounded-t-2xl shadow-lg w-full max-w-none absolute bottom-0 left-0 right-0 min-h-[60vh] max-h-[85vh] overflow-y-auto pb-6">
         <div class="text-left">
           <h2 class="text-2xl font-bold text-gray-800">Daftar</h2>
@@ -56,7 +56,7 @@
             <label class="block text-sm font-medium text-gray-700">Lokasi</label>
             <input type="text" v-model="location" class="p-3 w-full border rounded-full focus:ring-2 focus:ring-green-500 focus:outline-none bg-gray-100" required />
           </div>
-          <button type="submit" class="w-full mt-6 bg-green-700 text-white py-3 rounded-full hover:bg-green-800 transition">Daftar</button>
+          <button type="submit" class="w-full mt-6 bg-[#638872] text-white py-3 rounded-full hover:bg-[#4e6a5a] transition">Daftar</button>
         </form>
         <p class="mt-6 text-center text-sm text-gray-600">Already have an account? <a href="/login" class="text-green-500 hover:underline">Masuk</a></p>
       </div>
